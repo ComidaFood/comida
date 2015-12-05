@@ -1,0 +1,20 @@
+{
+	"ingredients": [{
+		"ingredient": "Ingredient 1",
+		"amount": [1, "cups"]
+	}, {
+		"ingredient": "Ingredient 2",
+		"amount": [4, "ounces"]
+	}],
+	"steps": ["Blank step 1", "Blank step 2", "Blank step 3"]
+}
+{
+	"ingredients": [{
+		"ingredient": "Ingredient 1",
+		"amount": [1, "tablespoons"]
+	}, {
+		"ingredient": "Ingredient 2",
+		"amount": [2, "teaspoons"]
+	}],
+	"steps": ["Blank step 1", "Blank step 2", "Blank step 3"]
+}
