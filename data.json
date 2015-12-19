@@ -1,4 +1,4 @@
-{
+data = [{
 	"ingredients": [{
 		"ingredient": "Ingredient 1",
 		"amount": {
@@ -13,7 +13,7 @@
 		}
 	}],
 	"steps": ["Blank step 1", "Blank step 2", "Blank step 3"]
-}
+},
 {
 	"ingredients": [{
 		"ingredient": "Ingredient 1",
@@ -29,4 +29,4 @@
 		}
 	}],
 	"steps": ["Blank step 1", "Blank step 2", "Blank step 3"]
-}
+}];
