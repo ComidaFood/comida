@@ -1,20 +1,32 @@
 {
 	"ingredients": [{
 		"ingredient": "Ingredient 1",
-		"amount": [1, "cups"]
+		"amount": {
+			"number": 1,
+			"unit": "cups"
+		}
 	}, {
 		"ingredient": "Ingredient 2",
-		"amount": [4, "ounces"]
+		"amount": {
+			"number": 4,
+			"unit": "ounces"
+		}
 	}],
 	"steps": ["Blank step 1", "Blank step 2", "Blank step 3"]
 }
 {
 	"ingredients": [{
 		"ingredient": "Ingredient 1",
-		"amount": [1, "tablespoons"]
+		"amount": {
+			"number": 1,
+			"unit": "tablespoons"
+		}
 	}, {
 		"ingredient": "Ingredient 2",
-		"amount": [2, "teaspoons"]
+		"amount": {
+			"number": 2,
+			"unit": "teaspoons"
+		}
 	}],
 	"steps": ["Blank step 1", "Blank step 2", "Blank step 3"]
 }
