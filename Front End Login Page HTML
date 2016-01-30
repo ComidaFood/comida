@@ -23,7 +23,7 @@
     </html>
 
 /* new html:
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
@@ -32,15 +32,20 @@
 	<body>
 		<div class ="navbar"> </div>
    	       	<p id="name">ComidaFood</p>
-   	 <div class = "outNavbar"> </div>
+   	       	<div class = "outNavbar"></div>
    	    <div class="picture">
    	       <img src="https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/106/106399/crsrxfllostehmuxwzqfkdarpcg0di40toehyl4mzmgrkmy3dpfzxttukvsmluvp-o.jpg?1399222059"> 
    	    </div>
    	    <form method="POST" action="https://example.com/form">
-   	    <div class = "login"> </div>
+   	     <div class = "login"> </div>
    	    <div class = "loginBox" onClick = "javascript:this.form.submit();"><a href="https://www.facebook.com/"> <span>LOGIN</span> 
+   	       	    </a> </div>
+
    	    	<p id="signIn">Sign In</p>
-   	    </a> </div>
+   	    <p id = "signUpsentence"> Do not have an account?</p>
+   	    <div class = "signUp"><a href="https://www.facebook.com/"> <span>Sign Up!</span> 
+   	    </a></div>
+   	  
    	        <input type="text" value="" placeholder="Username" id="username" />
    	    <div class = "passwordBox"> </div>
    	        <input type="password" value="" placeholder="Password" id="password" />
