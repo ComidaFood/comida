@@ -157,7 +157,7 @@
    float: center;
    border-radius: 20px;
    width: 40%;
-   height: 45%;
+   height: 50%;
    left: 30%;
    top: 30%;
    background-color: #786259;
@@ -205,24 +205,52 @@
     width: 12%;
     height: 7%;
     left: 43%;
-    top: 65%;
+    top: 60%;
     font-size: 30px;
     font-family: sans-serif;
-    
     
  }
  
  .loginBox a {
-    color: #FFFFFF;
+    color: #66b2b2;
     text-decoration: none;
  }
 
 #signIn {
+    z-index: 2;
     font-size: 40px;
     color: #f30400;
     position: fixed;
     opacity: 1;
     top: -4%;
     left: 44%;
+    font-family: sans-serif;
 }
+#signUpsentence {
+    font-size: 25px;
+    position:fixed;
+    top:67%;
+    left:32%;
+    color: #66b2b2;
+    font-family: sans-serif;
+    
+}
+  
+ .signUp {
+    z-index: 4;
+     font-size: 25px;
+    position:fixed;
+    top: 71%;
+    border: none;
+    left: 53%;
+    font-family: sans-serif;
+    
+ }
+ 
+ .signUp a {
+    color: #66b2b2;
+    text-decoration: none;
+ }
+
+
 */
