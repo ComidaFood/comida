@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,11 +10,14 @@
    	    <div class="picture">
    	       <img src="https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/106/106399/crsrxfllostehmuxwzqfkdarpcg0di40toehyl4mzmgrkmy3dpfzxttukvsmluvp-o.jpg?1399222059"> 
    	    </div>
+   	    <form method="POST" action="https://example.com/form">
    	    <div class = "login"> </div>
-   	    <div class = "loginBox"><a href="https://www.facebook.com/"> <span>LOGIN</span> </a> </div>
+   	    <div class = "loginBox" onClick = "javascript:this.form.submit();"><a href="https://www.facebook.com/"> <span>LOGIN</span> 
+   	    </a> </div>
    	        <input type="text" value="" placeholder="Username" id="username" />
    	    <div class = "passwordBox"> </div>
    	        <input type="password" value="" placeholder="Password" id="password" />
+   	        </form>
 </div>
     </body>
     </html>
