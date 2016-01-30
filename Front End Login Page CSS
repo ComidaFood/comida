@@ -100,4 +100,129 @@
  }
 
 
+/* new version:
 
+.picture img {
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  min-width: 1020px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+ z-index: 0;
+   padding: 30px;
+   background-color:#66b2b2;
+   margin: 40px;
+   margin-left: 3px;
+   margin-top: 1px;
+   margin-right: 70px;
+   width: 18%;
+   border-radius: 5px;
+
+}
+
+.outNavbar {
+   z-index: -1;
+   position: fixed;
+   padding: 30px;
+   background-color:#FFFFFF;
+   margin: 40px;
+   margin-left: -3px;
+   margin-top: -105px;
+   margin-right: 70px;
+   width: 95%;
+   height: 2%;
+   border-radius: 5px;
+}
+
+#name {
+  z-index: 1;
+  position: absolute;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #ffffff;
+  top: -40px;
+  left: 15px;
+ 
+}
+
+.login {
+   z-index: 2;
+   position: absolute;
+   float: center;
+   border-radius: 20px;
+   width: 40%;
+   height: 45%;
+   left: 30%;
+   top: 30%;
+   background-color: #786259;
+   margin: auto;
+   opacity: .5;
+
+}
+
+#username {
+    z-index: 3;
+    position: fixed;
+    left: 40%;
+    top: 38%;
+    margin: auto;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #000000;
+    
+    
+}
+
+#password {
+    z-index: 3;
+    position: absolute;
+    left: 40%;
+    top: 52%;
+    margin: auto;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #000000;
+    
+}
+  
+ .loginBox {
+    z-index: 4;
+    border-radius 2px;
+    border: 2px solid #786259;
+    background-color: #662b2;
+    opacity: .6;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    float: center;
+    border-radius: 20px;
+    width: 12%;
+    height: 7%;
+    left: 43%;
+    top: 65%;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+    
+ }
+ 
+ .loginBox a {
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+
+#signIn {
+    font-size: 40px;
+    color: #f30400;
+    position: fixed;
+    opacity: 1;
+    top: -4%;
+    left: 44%;
+}
+*/
