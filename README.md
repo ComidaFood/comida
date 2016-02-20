@@ -20,6 +20,7 @@ Ingredients list has:
 - UNITS (units used, such as cups, teaspoons, millileters)
 
 Steps list has:
+- ID (recipe ID)
 - INDEX (e.g. step #1 or step #4)
 - TEXT (the step actually written out)
 
