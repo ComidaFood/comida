@@ -24,4 +24,4 @@ Steps list has:
 - INDEX (e.g. step #1 or step #4)
 - TEXT (the step actually written out)
 
-A recipe can also be tied to the ID of the user who created it
+A recipe can also be tied to the ID of the user who created it 
