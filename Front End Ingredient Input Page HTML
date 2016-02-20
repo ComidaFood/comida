@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+     <title> comidaFood </title>
+  </head>
+	<body>
+		<div class ="navbar"> </div>
+   	       	<p id="name">ComidaFood</p>
+</div>
+ 
+       
+
+
+        <div class= "vegetable">
+
+         <h2>Vegetables</h2>
+         <form action="vegetable_checkbox.php" method="post">
+
+         <input type="checkbox" name="check_list[]" value="Lettuce"><label>Lettuce</label>
+         <input type="checkbox" name="check_list[]" value="Cucumber"><label>Cucumber</label>
+         <input type="checkbox" name="check_list[]" value="Carrots"><label>Carrots</label>
+          <input type="checkbox" name="check_list[]" value="Broccoli"><label>Broccoli</label>
+         <input type="checkbox" name="check_list[]" value="Eggplant"><label>Eggplant</label>
+         <input type="submit" name="submit" Value="Submit"/>
+<?php include 'vegetable_checkbox_value.php';?>
+        </form>
+
+        
+ <div class= "fruit">
+
+        <h2>Fruit</h2>
+        <form action="fruit_checkbox.php" method="post">
+
+        <input type="checkbox" name="check.list[]" value="Strawberries"><label>Strawberries</label>
+        <input type="checkbox" name="check.list[]" value="Apples"><label>Apples</label>
+        <input type="checkbox" name="check/list[]" value="Bananas"><label>Bananas</label>
+        <input type="checkbox" name="check/list[]" value="Mango"><label>Mango</label>
+        <input type="submit" name="submit" Value="Submit"/>
+<?php include 'fruit_checkbox_value.php';?>
+        </form>
+
+
+<div class= "meat">
+
+        <h2>Meat</h2>
+        <form action="meat_checkbox.php" method="post">
+
+        <input type="checkbox" name="check.list[]" value="Chicken"><label>Chicken</label>
+        <input type="checkbox" name="check.list[]" value="Beef"><label>Beef</label>
+        <input type="checkbox" name="check/list[]" value="Turkey"><label>Turkey</label>
+        <input type="checkbox" name="check.list[]" value="Pork"><label>Pork</label>
+        <input type="submit" name="submit" Value="Submit"/>
+<?php include 'meat_checkbox_value.php';?>
+        </form>
+           </div>
+           </div>
+           
+           
+    </body>
+    </html>
+ 
