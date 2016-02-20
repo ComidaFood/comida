@@ -1,0 +1,38 @@
+.navbar {
+   z-index: 0;
+   padding: 30px;
+   background-color:#786259; 
+   margin: 40px;
+   margin-left: -10px;
+   margin-top: 1px;
+   margin-right: 1px;
+   width: 100%;
+}
+
+
+#name {
+  z-index: 1;
+  position: absolute;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #ffffff;
+  top: -40px;
+  left: 15px;
+ 
+}
+.vegetable {
+margin-top: 30px;
+font-family: sans-serif;
+}
+
+
+.fruit {
+margin-top: 50px;
+font-family: sans-serif;
+}
+
+.meat {
+margin-top: 70px;
+font-family: sans-serif;
+}
+
