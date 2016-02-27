@@ -1,0 +1,29 @@
+.navbar {
+   z-index: 0;
+   padding: 30px;
+   background-color:#786259; 
+   margin: 40px;
+   margin-left: -10px;
+   margin-top: 1px;
+   margin-right: 1px;
+   width: 100%;
+}
+
+#name {
+  z-index: 1;
+  position: absolute;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #ffffff;
+  top: -40px;
+  left: 15px;
+ 
+input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;
+}
+
