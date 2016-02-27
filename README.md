@@ -1,13 +1,15 @@
 # comida
 
+The following is a description of the tables used in the backend.
+
 Users will have:
 - ID
 - USERNAME
 - PASSWORD
 
 and optional parameters:
-- FIRST NAME
-- LAST NAME
+- FIRSTNAME
+- LASTNAME
 
 Recipes will be split into two tables:
 - Ingredients list
@@ -21,7 +23,7 @@ Ingredients list has:
 
 Steps list has:
 - ID (recipe ID)
-- INDEX (e.g. step #1 or step #4)
+- STEPINDEX (e.g. step #1 or step #4)
 - TEXT (the step actually written out)
 
 A recipe can also be tied to the ID of the user who created it 
