@@ -1,5 +1,7 @@
 # comida
 
+<b>IMPORTANT:</b> DO NOT EDIT THE .exe FILES!!!
+
 The following is a description of the tables used in the backend.
 
 Users will have:
